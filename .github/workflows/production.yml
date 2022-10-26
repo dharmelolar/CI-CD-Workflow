@@ -25,8 +25,8 @@ jobs:
       run: npm run build
       
     # copy file for netlify.toml
-    - name: Copy build settings to build folder
-      run: cp netlify.toml build/
+    # - name: Copy build settings to build folder
+    #   run: cp netlify.toml build/
 
     # deploy application to netlify
     - name: Deploy production to Netlify
