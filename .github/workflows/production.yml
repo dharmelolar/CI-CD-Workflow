@@ -22,9 +22,7 @@ jobs:
         run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
         id: curr_branch
 
-      - name: Install Netlify CLI
-        run: npm install netlify-cli -g
-
+     
       - name: Install dependencies
         run: npm install
 
