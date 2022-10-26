@@ -1,5 +1,5 @@
 
-name: "build pipeline for web release"
+name: "ci/cd pipeline"
 
 on: 
   push:
