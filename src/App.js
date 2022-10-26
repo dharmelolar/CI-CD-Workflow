@@ -7,6 +7,7 @@ function App() {
         <h2>CI/CD Pipeline with Netlify and Github Actions</h2>
         <p>My test passed</p>
         <p>Testing again</p>
+        <p>failer </p>
       </header>
     </div>
   );
